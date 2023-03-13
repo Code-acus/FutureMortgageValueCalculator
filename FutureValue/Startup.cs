@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -12,21 +13,17 @@ namespace FutureValue
             services.AddControllersWithViews();
         }
 
-        // Use this method to configure the HTTP request pipeline.
+        //  Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
-
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days.
-                // You may want to change this for production scenarios,
-                // see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
+                app.UseHsts
             }
 
             app.UseHttpsRedirection();
@@ -35,11 +32,9 @@ namespace FutureValue
             app.UseRouting();
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute(name: "default",
+                    pattern: "{controlle=Home} /{ Action = Index}/{ id ?}");
             });
         }
-
     }
 }
