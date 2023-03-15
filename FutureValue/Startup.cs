@@ -33,7 +33,7 @@ namespace FutureValue
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(name: "default",
-                    pattern: "{controlle=Home} /{ Action = Index}/{ id ?}");
+                    pattern: "{controller=Home}/{ Action = Index}/{ id ?}");
             });
         }
     }
