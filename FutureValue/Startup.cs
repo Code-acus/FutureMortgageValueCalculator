@@ -1,9 +1,4 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-
-namespace FutureValue
+﻿namespace FutureValue
 {
     public class Startup
     {
@@ -33,7 +28,7 @@ namespace FutureValue
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(name: "default",
-                    pattern: "{controlle=Home} /{ Action = Index}/{ id ?}");
+                    pattern: "{controller=Home}/{ Action = Index}/{ id ?}");
             });
         }
     }
