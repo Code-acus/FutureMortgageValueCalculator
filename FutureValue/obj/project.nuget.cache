@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ay2KIuZb4axsEsCMAPwfYpRTedrGLM/xNgUzrwONrIPNlVWNIp/jDf+bnalCtSrqqOK18bBlC/zUfWh79rvsJQ==",
+  "dgSpecHash": "c2lTHVTqntDAuJd2UXfCzYdJZY3TE93gf3nMuf5amBOhng5mfAAjkcPq6kqzv8SQEaJZVhqVY2VlBidxXhrclw==",
   "success": true,
-  "projectFilePath": "C:\\Development\\C#\\FutureMortgageValueCalculator\\FutureValue\\FutureValue.csproj",
+  "projectFilePath": "C:\\Development\\C#\\ASP.NET Core\\FutureMortgageValueCalculator\\FutureValue\\FutureValue.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
