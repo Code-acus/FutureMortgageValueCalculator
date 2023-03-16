@@ -1,6 +1,5 @@
-﻿using FutureValue.Models;
-using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+﻿using Microsoft.AspNetCore.Mvc;
+using FutureValue.Models;
 
 namespace FutureValue.Controllers
 {
@@ -9,22 +8,18 @@ namespace FutureValue.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            ViewBag.FV = 0;
+            ViewBag.Name = "Mary";
+            ViewBag.FV = 99999.99;
             return View();
         }
 
         [HttpPost]
         public IActionResult Index(FutureValueModel model)
         {
-            if (ModelState.IsValid)
-            {
-                ViewBag.FV = model.CalculateFutureValue();
-            }
-            else
-            {
-                ViewBag.FV = 0;
-            }
+            ViewBag.FV = model.CalculateFutureValue();
             return View(model);
         }
     }
 }
+
+
