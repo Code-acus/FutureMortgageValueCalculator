@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\C#\\FutureMortgageValueCalculator\\FutureValue\\FutureValue.csproj": {}
+    "C:\\Development\\C#\\ASP.NET Core\\FutureMortgageValueCalculator\\FutureValue\\FutureValue.csproj": {}
   },
   "projects": {
-    "C:\\Development\\C#\\FutureMortgageValueCalculator\\FutureValue\\FutureValue.csproj": {
+    "C:\\Development\\C#\\ASP.NET Core\\FutureMortgageValueCalculator\\FutureValue\\FutureValue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\C#\\FutureMortgageValueCalculator\\FutureValue\\FutureValue.csproj",
+        "projectUniqueName": "C:\\Development\\C#\\ASP.NET Core\\FutureMortgageValueCalculator\\FutureValue\\FutureValue.csproj",
         "projectName": "FutureValue",
-        "projectPath": "C:\\Development\\C#\\FutureMortgageValueCalculator\\FutureValue\\FutureValue.csproj",
-        "packagesPath": "C:\\Users\\HarrisonRogers\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\C#\\FutureMortgageValueCalculator\\FutureValue\\obj\\",
+        "projectPath": "C:\\Development\\C#\\ASP.NET Core\\FutureMortgageValueCalculator\\FutureValue\\FutureValue.csproj",
+        "packagesPath": "C:\\Users\\hrogers\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\C#\\ASP.NET Core\\FutureMortgageValueCalculator\\FutureValue\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HarrisonRogers\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hrogers\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
