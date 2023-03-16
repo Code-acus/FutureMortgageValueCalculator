@@ -14,7 +14,7 @@
             set;
         }
 
-        public int years
+        public int Years
         {
             get;
             set;
@@ -22,7 +22,7 @@
 
         public decimal CalculateFutureValue()
         {
-            int months = years * 12;
+            int months = Years * 12;
             decimal monthlyInterestRate = YearlyInterestRate / 12 / 100;
             decimal futureValue = 0;
 
