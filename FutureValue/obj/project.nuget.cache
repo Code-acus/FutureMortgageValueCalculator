@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "c2lTHVTqntDAuJd2UXfCzYdJZY3TE93gf3nMuf5amBOhng5mfAAjkcPq6kqzv8SQEaJZVhqVY2VlBidxXhrclw==",
-  "success": true,
+  "dgSpecHash": "t/MwCFlQeqBXZuN23kIEY+69GwQ6GtZ8jwkyAPAB/CW3e1+K/A5lYHW8RgHMO+W+jv6r7Rr7dz9RbayqOmqiOA==",
+  "success": false,
   "projectFilePath": "C:\\Development\\C#\\ASP.NET Core\\FutureMortgageValueCalculator\\FutureValue\\FutureValue.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.VisualStudio.Web.CodeGeneration.Design. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Design",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

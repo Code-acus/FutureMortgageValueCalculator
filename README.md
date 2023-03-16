@@ -1,2 +1,0 @@
-# FutureMortgageValueCalculator
- Student Project
